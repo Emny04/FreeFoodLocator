@@ -17,7 +17,7 @@ with open('content.txt', 'r') as file:
     food_type = file.read().strip()  # Read and strip any extra whitespace
 
 # Append the search query for events that provide the specified type of food
-query = f"Find events that provide food:"
+query = food_type+ f"Provide a list of upcoming events that offer food, with the event name, location, date, and time."
 
 # The request body containing the model and messages to send
 data = {

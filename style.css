@@ -1,0 +1,107 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container to center the content */
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .form {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Input field styling */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+  }
+  
+  /* Input focus styling */
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
+  
+  /* Button styling */
+  .big-button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Button hover effect */
+  .big-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 12px 20px rgba(0, 86, 179, 0.4);
+  }
+  
+  /* Button active (pressed) effect */
+  .big-button:active {
+    background-color: #003d7a;
+    box-shadow: 0 5px 10px rgba(0, 61, 122, 0.4);
+  }
+  
+  /* Responsive Design for smaller devices */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    input {
+      padding: 10px;
+    }
+  
+    .big-button {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+  }
+  

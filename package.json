@@ -1,0 +1,16 @@
+{
+  "name": "freefoodlocator",
+  "version": "1.0.0",
+  "description": "FreeFoodLocator is a service that notifies students about free food events on campus. Using AI and web scraping, it gathers real-time info from university event pages and sends subscribers email updates. Stay informed and never miss a free meal with our accurate, easy-to-use system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
+  }
+}

@@ -12,7 +12,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 #Open the URL
 driver.get("https://bullsconnect.usf.edu/events?topic_tags=7276307")
 #Time the chrome gonna be appear, in this case 40 seconds
-time.sleep(40)
+time.sleep(80)
 
 #!!!!!!!!!!!!!!!!!!!
 

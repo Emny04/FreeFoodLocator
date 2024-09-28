@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form with Big Button</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Enter Your Details</h1>
+    <form action="/submit" method="POST" class="form">
+      <div class="input-group">
+        <input type="text" name="first-name" placeholder="First Name" required>
+      </div>
+      <div class="input-group">
+        <input type="text" name="last-name" placeholder="Last Name" required>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+      </div>
+      
+      <button class="big-button" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
